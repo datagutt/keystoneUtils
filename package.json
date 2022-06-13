@@ -20,15 +20,22 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matchawine/keystoneUtils/issues"
+    "url": "https://github.com/datagutt/keystoneUtils/issues"
   },
-  "homepage": "https://github.com/matchawine/keystoneUtils#readme",
+  "homepage": "https://github.com/datagutt/keystoneUtils#readme",
   "keywords": [
     "KeystoneJS",
     "Keystone"
   ],
   "dependencies": {
     "typescript": "^4.5.4"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datagutt/keystoneUtils.git"
   },
   "peerDependencies": {
     "@keystone-6/core": "^2.0.0",
