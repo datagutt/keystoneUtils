@@ -153,7 +153,7 @@ export const afterOperationSaveHistory = async ({
 
   const entityId = item?.id || originalItem?.id || ""
   const userData = {
-    id: context.session.user?.id,
+    id: context.session.data?.id,
   }
 
   const history = {
